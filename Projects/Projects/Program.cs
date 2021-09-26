@@ -6,7 +6,10 @@ namespace Projects
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            _1.program.runProgram(args);
+
+            Console.ReadLine();
         }
     }
 }
